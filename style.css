@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+  height: 100%;
+}
+
+body{
+    text-align: center;
+    background-color: #202028;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+.wrapper h1 {
+    text-align: center;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+}
+
+canvas{
+  border: solid .2em #fff;
+}
+
+.score-board{
+  margin-bottom: 1rem;
+}
+
+.hide{
+  display: none;
+}
