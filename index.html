@@ -10,14 +10,27 @@
   <body>
     <div class="wrapper">
       <h1>Tetris</h1>
-      <div class="score-board">
-        <label for="score">Score : </label>
-        <span id="score">0</span>
+      <div class="player-wrapper">
+        <div class="player-0">
+          <div class="score-board">
+            <label for="score">Score : </label>
+            <span id="score">0</span>
+          </div>
+          <canvas id="tetris"> </canvas>
+          <button id="start">Start</button>
+          <button id="stop" class="hide">Stop</button>
+        </div>
+        <div class="player-1">
+          <div class="score-board">
+            <label for="score">Score : </label>
+            <span id="score">0</span>
+          </div>
+          <canvas id="tetris"> </canvas>
+          <button id="start">Start</button>
+          <button id="stop" class="hide">Stop</button>
+        </div>
       </div>
-      <canvas id="tetris"> </canvas>
-      <button id="start">Start</button>
-      <button id="stop" class="hide">Stop</button>
     </div>
-    <script src="./scripts/tetris.js" type="module"></script>
+    <script src="./scripts/main.js" type="module"></script>
   </body>
 </html>

@@ -35,3 +35,8 @@ canvas{
 .hide{
   display: none;
 }
+
+.player-wrapper{
+  display: flex;
+  justify-content: space-around;
+}
